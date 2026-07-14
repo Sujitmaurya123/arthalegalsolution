@@ -30,7 +30,7 @@ export default function Overview() {
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold uppercase text-yellow-700">
+          <h2 className="text-4xl font-bold uppercase text-[#28355E]">
             Overview
           </h2>
 
@@ -90,11 +90,11 @@ export default function Overview() {
                 key={service.title}
                 className="group bg-white border rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 p-8 text-center hover:-translate-y-2"
               >
-                <div className="w-16 h-16 mx-auto rounded-full bg-blue-50 flex items-center justify-center group-hover:bg-yellow-900 transition">
+                <div className="w-16 h-16 mx-auto rounded-full bg-blue-50 flex items-center justify-center group-hover:bg-[#091e61] transition">
 
                   <Icon
                     size={34}
-                    className="text-yellow-700 group-hover:text-white"
+                    className="text-[#28355E] group-hover:text-white"
                   />
 
                 </div>

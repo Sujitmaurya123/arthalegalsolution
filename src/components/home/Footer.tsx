@@ -28,7 +28,7 @@ export default function Footer() {
               height={130}
             />
 
-            <h2 className="text-4xl font-bold text-yellow-700 mt-6">
+            <h2 className="text-4xl font-bold text-[#28355E] mt-6">
               Our Aim
             </h2>
 
@@ -106,7 +106,7 @@ export default function Footer() {
             <div className="space-y-6">
 
               <div className="flex gap-4">
-                <Phone className="text-yellow-700 mt-1" />
+                <Phone className="text-[#28355E] mt-1" />
                 <div>
                   <h4 className="font-semibold">
                     Phone
@@ -118,7 +118,7 @@ export default function Footer() {
               </div>
 
               <div className="flex gap-4">
-                <MapPin className="text-yellow-700 mt-1" />
+                <MapPin className="text-[#28355E] mt-1" />
                 <div>
                   <h4 className="font-semibold">
                     Address
@@ -132,7 +132,7 @@ export default function Footer() {
               </div>
 
               <div className="flex gap-4">
-                <Mail className="text-yellow-700 mt-1" />
+                <Mail className="text-[#28355E] mt-1" />
                 <div>
                   <h4 className="font-semibold">
                     Email
@@ -151,14 +151,14 @@ export default function Footer() {
 
               <Link
                 href="https://arthalegalsolution.com/#"
-                className="w-11 h-11 rounded-full bg-yellow-700 text-white flex items-center justify-center hover:bg-blue-700 transition"
+                className="w-11 h-11 rounded-full bg-[#28355E] text-white flex items-center justify-center hover:bg-blue-700 transition"
               >
                 <FaFacebookF size={18} />
               </Link>
 
               <Link
                 href="https://arthalegalsolution.com/#"
-                className="w-11 h-11 rounded-full bg-yellow-700 text-white flex items-center justify-center hover:bg-blue-700 transition"
+                className="w-11 h-11 rounded-full bg-[#28355E] text-white flex items-center justify-center hover:bg-blue-700 transition"
               >
                 <FaTwitter size={18} />
               </Link>

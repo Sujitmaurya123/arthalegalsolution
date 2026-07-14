@@ -23,18 +23,18 @@ export default function Hero() {
           {/* Right Content */}
           <div className="order-1 lg:order-2 text-center lg:text-left">
 
-            <span className="inline-block px-4 py-2 rounded-full bg-blue-50 text-yellow-700 font-semibold mb-6">
+            <span className="inline-block px-4 py-2 rounded-full bg-blue-50 text-[#28355E] font-semibold mb-6">
               Trusted Legal Experts
             </span>
 
             <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
-              <span className="text-yellow-700">Artha</span>{" "}
+              <span className="text-[#28355E]">Artha</span>{" "}
               <span className="text-gray-900">
                 Legal Solutions
               </span>
             </h1>
 
-            <h2 className="mt-5 text-3xl md:text-4xl font-semibold text-yellow-700">
+            <h2 className="mt-5 text-3xl md:text-4xl font-semibold text-[#28355E]">
               Your Justice, Our Motto
             </h2>
 
@@ -50,14 +50,14 @@ export default function Hero() {
 
               <Link
                 href="/contact"
-                className=" bg-yellow-700 hover:bg-yellow-900 text-white px-8 py-4 rounded-md font-semibold transition"
+                className=" bg-[#28355E] hover:bg-[#0e2264] text-white px-8 py-4 rounded-md font-semibold transition"
               >
                 Book Consultation
               </Link>
 
               <Link
                 href="/practice-area"
-                className="border-2 border-yellow-700 text-yellow-700 hover:bg-yellow-900 hover:text-white px-8 py-4 rounded-md font-semibold transition"
+                className="border-2 border-[#28355E] text-[#28355E] hover:bg-[#28355E] hover:text-white px-8 py-4 rounded-md font-semibold transition"
               >
                 Practice Areas
               </Link>
@@ -67,7 +67,7 @@ export default function Hero() {
             <div className="grid grid-cols-3 gap-6 mt-14 text-center lg:text-left">
 
               <div>
-                <h3 className="text-3xl font-bold text-yellow-700">
+                <h3 className="text-3xl font-bold text-[#28355E]">
                   15+
                 </h3>
                 <p className="text-gray-600 mt-2">
@@ -76,7 +76,7 @@ export default function Hero() {
               </div>
 
               <div>
-                <h3 className="text-3xl font-bold text-yellow-700">
+                <h3 className="text-3xl font-bold text-[#28355E]">
                   500+
                 </h3>
                 <p className="text-gray-600 mt-2">
@@ -85,7 +85,7 @@ export default function Hero() {
               </div>
 
               <div>
-                <h3 className="text-3xl font-bold text-yellow-700">
+                <h3 className="text-3xl font-bold text-[#28355E]">
                   100%
                 </h3>
                 <p className="text-gray-600 mt-2">

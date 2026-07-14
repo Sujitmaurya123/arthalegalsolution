@@ -14,8 +14,8 @@ import {
 const navItems = [
   { name: "Home", href: "/" },
   { name: "About Us", href: "/about" },
-  { name: "Recovery of Share", href: "/recovery-of-share" },
-  { name: "Practice Area", href: "/practice-area" },
+  // { name: "Recovery of Share", href: "/recovery-of-share" },
+  { name: "Services", href: "/services" },
   { name: "Blog", href: "/blog" },
   { name: "Contact Us", href: "/contact" },
 ];
@@ -26,7 +26,7 @@ export default function Navbar() {
   return (
     <header className="w-full shadow-sm">
       {/* Top Bar */}
-      <div className="bg-yellow-700 text-white hidden lg:block">
+      <div className="bg-[#28355E] text-white hidden lg:block">
         <div className="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between text-sm">
 
           <h3 className="font-semibold text-lg">
