@@ -14,7 +14,7 @@ import {
 const navItems = [
   { name: "Home", href: "/" },
   { name: "About Us", href: "/about" },
-  // { name: "Recovery of Share", href: "/recovery-of-share" },
+  { name: "Recovery of Share", href: "/recovery-of-share" },
   { name: "Services", href: "/services" },
   { name: "Blog", href: "/blog" },
   { name: "Contact Us", href: "/contact" },
