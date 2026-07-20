@@ -10,6 +10,7 @@ import {
   Menu,
   X,
 } from "lucide-react";
+import WhatsAppButton from "./WhatsApp";
 
 const navItems = [
   { name: "Home", href: "/" },
@@ -147,6 +148,7 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
+      <WhatsAppButton/>
     </header>
   );
 }
